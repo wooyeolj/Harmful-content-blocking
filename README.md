@@ -34,7 +34,7 @@ https://github.com/ultralytics/yolov5
 
 3. 보고서 생성
 
-   발견된 유해요소 종류 및 정확도
+   발견된 유해요소 종류 및 정확도 제공
 
 # 기술 스택
 

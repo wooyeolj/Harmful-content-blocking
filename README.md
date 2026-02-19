@@ -1,11 +1,20 @@
 # Harmful-content-blocking
 AI YOLO 객체 감지 기술을 활용한 유해 콘텐츠 사전 차단 및 보호자 보고 채팅 애플리케이션 
 
-![image](https://github.com/user-attachments/assets/fd54e1b0-65e7-4945-831f-9ae3a987b830)
-https://github.com/ultralytics/yolov5
+Backend
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-2.0+-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![YOLOv5](https://img.shields.io/badge/YOLOv5-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://github.com/ultralytics/yolov5)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.5+-5C3EE8?style=flat&logo=opencv&logoColor=white)](https://opencv.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.10+-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
 
-![Android Studio](https://img.shields.io/badge/android%20studio-346ac1?style=for-the-badge&logo=android%20studio&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+Frontend (Android)
+[![Android Studio](https://img.shields.io/badge/Android_Studio-2021.1+-3DDC84?style=flat&logo=androidstudio&logoColor=white)](https://developer.android.com/studio)
+[![Java](https://img.shields.io/badge/Java-8+-007396?style=flat&logo=java&logoColor=white)](https://www.oracle.com/java/)
+[![Firebase](https://img.shields.io/badge/Firebase-9.0+-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![Retrofit](https://img.shields.io/badge/Retrofit-2.9+-48B983?style=flat)](https://square.github.io/retrofit/)
+[![OkHttp](https://img.shields.io/badge/OkHttp-4.9+-4479A1?style=flat)](https://square.github.io/okhttp/)
+
 
 # 요약
 -실시간 유해요소 탐지

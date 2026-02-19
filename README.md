@@ -27,11 +27,12 @@
 
 <div align="center">
   
-### 프로젝트 요약
+### 프로젝트 데모
 -실시간 유해요소 탐지
 -메신저 앱 내 자동 필터링
 
-{앱 채팅방 사진}
+<img width="363" height="787" alt="image" src="https://github.com/user-attachments/assets/04c9a43b-2b89-4b7d-b30f-7b565d92d441" />
+
 <채팅 중 동영상 전송>
 
 ![image](https://github.com/user-attachments/assets/9d804b2b-1148-403c-9d55-ef8186fee6e4) 

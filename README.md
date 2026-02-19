@@ -32,6 +32,7 @@
 -메신저 앱 내 자동 필터링
 
 <img width="363" height="787" alt="image" src="https://github.com/user-attachments/assets/04c9a43b-2b89-4b7d-b30f-7b565d92d441" />
+<img width="363" height="787" alt="111" src="https://github.com/user-attachments/assets/eabbf51b-a8de-47d8-a50e-87b52ff7507a" />
 
 <채팅 중 동영상 전송>
 

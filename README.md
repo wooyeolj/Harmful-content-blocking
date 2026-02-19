@@ -35,15 +35,15 @@
   <table>
     <tr>
       <td align="center">
-        <img src="첫번째_이미지_주소" width="300"/><br>
+        <img src="https://github.com/user-attachments/assets/eabbf51b-a8de-47d8-a50e-87b52ff7507a" width="300"/><br>
         <b><채팅 중 동영상 전송></b>
       </td>
       <td align="center">
-        <img src="두번째_이미지_주소" width="300"/><br>
+        <img src="https://github.com/user-attachments/assets/9d804b2b-1148-403c-9d55-ef8186fee6e4" width="300"/><br>
         <b><유해 요소 탐지></b>
       </td>
       <td align="center">
-        <img src="세번째_이미지_주소" width="300"/><br>
+        <img src="https://github.com/user-attachments/assets/105c5e8f-982b-47a4-89cb-ce0d4508fdf0" width="300"/><br>
         <b><보고서 링크 접속></b>
       </td>
     </tr>

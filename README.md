@@ -6,14 +6,17 @@
 
 
 <div align="center">
-Backend
+
+  Backend
+  
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-2.0+-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![YOLOv5](https://img.shields.io/badge/YOLOv5-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://github.com/ultralytics/yolov5)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.5+-5C3EE8?style=flat&logo=opencv&logoColor=white)](https://opencv.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.10+-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
 
-Frontend (Android)
+  Frontend (Android)
+
 [![Android Studio](https://img.shields.io/badge/Android_Studio-2021.1+-3DDC84?style=flat&logo=androidstudio&logoColor=white)](https://developer.android.com/studio)
 [![Java](https://img.shields.io/badge/Java-8+-007396?style=flat&logo=java&logoColor=white)](https://www.oracle.com/java/)
 [![Firebase](https://img.shields.io/badge/Firebase-9.0+-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/)
@@ -23,6 +26,7 @@ Frontend (Android)
 </div>
 
 <div align="center">
+  
 ### 프로젝트 요약
 -실시간 유해요소 탐지
 -메신저 앱 내 자동 필터링
@@ -31,9 +35,11 @@ Frontend (Android)
 <채팅 중 동영상 전송>
 
 ![image](https://github.com/user-attachments/assets/9d804b2b-1148-403c-9d55-ef8186fee6e4) 
+
 <유해 요소 탐지>
 
 ![image](https://github.com/user-attachments/assets/105c5e8f-982b-47a4-89cb-ce0d4508fdf0) 
+
 <보고서 링크 접속>
 
 </div>

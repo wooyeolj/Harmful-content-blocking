@@ -1,6 +1,11 @@
-# Harmful-content-blocking
-AI YOLO 객체 감지 기술을 활용한 유해 콘텐츠 사전 차단 및 보호자 보고 채팅 애플리케이션 
+# ai 유해 콘텐츠 차단 및 보고 채팅 애플리케이션
 
+### Harmful-content-blocking
+
+> AI YOLO 객체 감지 기술을 활용한 유해 콘텐츠 사전 차단 및 보호자 보고 채팅 애플리케이션 
+
+
+<div align="center">
 Backend
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-2.0+-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
@@ -15,8 +20,10 @@ Frontend (Android)
 [![Retrofit](https://img.shields.io/badge/Retrofit-2.9+-48B983?style=flat)](https://square.github.io/retrofit/)
 [![OkHttp](https://img.shields.io/badge/OkHttp-4.9+-4479A1?style=flat)](https://square.github.io/okhttp/)
 
+</div>
 
-# 요약
+<div align="center">
+### 프로젝트 요약
 -실시간 유해요소 탐지
 -메신저 앱 내 자동 필터링
 
@@ -29,26 +36,28 @@ Frontend (Android)
 ![image](https://github.com/user-attachments/assets/105c5e8f-982b-47a4-89cb-ce0d4508fdf0) 
 <보고서 링크 접속>
 
-# 주요 기능
-1. 실시간 유해요소 탐지 (YOLOv5)
+</div>
 
-   객체 탐지 모델 : YOLOv5 커스텀 모델
-   탐지 가능한 유해요소 : [칼, 담배, 총기]
-   실시간 처리 지원
+## 목차
+1. [프로젝트 소개](#프로젝트-소개)
+2. [주요 기능](#주요-기능)
+3. [시스템 아키텍처](#시스템-아키텍처)
+4. [기술 스택](#기술-스택)
+5. [설치 및 실행](#설치-및-실행)
+6. [프로젝트 결과](#프로젝트-결과)
+7. [기술적 도전과 해결](#기술적-도전과-해결)
+8. [향후 개선 방향](#향후-개선-방향)
+9. [팀 및 기여](#팀-및-기여)
+10. [라이선스](#라이선스)
 
-2. 메신저 앱 연동
-   동영상 전송 시 필터링 수행
-   - 전송 전 서버에서 실시간 프레임 분석
-   - 유해 요소 탐지 시 즉시 차단
 
-3. 보고서 생성
-
-   발견된 유해요소 종류 및 정확도 제공
-
-# 기술 스택
-
-# 데이터 셋
-
-# 성능 및 평가
-
-# 개선 사항
+## 프로젝트 소개
+## 주요 기능
+## 시스템 아키텍처
+## 기술 스택
+## 설치 및 실행
+## 프로젝트 결과
+## 기술적 도전과 해결
+## 향후 개선 방향
+## 팀 및 기여
+## 라이선스

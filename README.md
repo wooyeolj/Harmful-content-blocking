@@ -516,6 +516,8 @@ def save_detection_info(video_folder, detection_number, class_name, confidence):
 
 #### 📦데이터 셋
 
+
+
 ### 📱애플리케이션 개발
 
 #### 💻개발 환경

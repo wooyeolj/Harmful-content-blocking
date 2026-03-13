@@ -529,10 +529,10 @@ YOLO 의 Pretrained Checkpoints를 기반으로 성능과 속도 사이의 Trade
 
 ```
 완성된 데이터 셋과 변수들을 바꿔가며 최종적으로 각 요소의 predicted가 0.9에 근접하고 maP (0.93935 at IoU 0.5) 의 성능을 가지는 모델을 만들었다.
-
 <img width="628" height="417" alt="Image" src="https://github.com/user-attachments/assets/7acdf3a2-3627-4c95-b6ac-6c53291c5cac" ></img>
-```
 
+```
+<img width="628" height="417" alt="Image" src="https://github.com/user-attachments/assets/7acdf3a2-3627-4c95-b6ac-6c53291c5cac" ></img>
 
 ### 📱애플리케이션 개발
 

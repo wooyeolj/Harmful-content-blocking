@@ -516,9 +516,13 @@ def save_detection_info(video_folder, detection_number, class_name, confidence):
 
 #### 📦데이터 셋
 
-본 프로젝트는 아동 청소년 보호를 위해 영상 매체에서 빈번히 노출되는 총기, 도검류, 담배 3종을 유해물로 지정하였다.
+**데이터 셋 구성**
 
-초기모델 구축과정에서 처음에는 인터넷에서 가진을 긁어 라벨링을 하며 진행하였으나 더 많은 데이터셋을 확보하기 위해 Roboflow의 데이터 셋과 직접 촬영한 사진 약 100장을 포함해 약 26000장의 사진으로 YOLO 모델 중 nano, small, medium 사이즈를 위주로 다양한 batch와 80~120번의 epochs의 조건을 변경하며 모델 학습을 수행하였다. 하지만 학습된 모델은 초기 원하던 90% 이상의 정확도에 달하지 못하여 데이터셋의 사진을 약 4만 장으로 늘리고 custom 데이터 셋의 품질을 높이며 다양한 batch와 overfitting이 되지 않을 정도의 학습 수를 고려하여 진행 하였다. 
+본 프로젝트는 아동 청소년 보호를 위해 영상 매체에서 노출 빈도가 높은 총기, 도검류, 담배 3종을 유해물로 지정하여 탐지 대상으로 선정하였다.
+
+초기모델 구축과정에서 인터넷에서 사진을 긁어 라벨링을 하며 진행하였으나 더 많은 데이터셋을 확보하기 위해 Roboflow의 데이터 셋과 직접 촬영한 사진 100장을 포함해 약 26000장의 사진으로 YOLO nano, small, medium 모델을 위주로 다양한 batch와 80~120번의 epochs의 조건을 변경하며 모델 학습을 수행하였다. 
+
+하지만 학습된 모델은 목표하던 90% 이상의 정확도에 달하지 못하여 데이터셋의 사진을 약 4만 장으로 늘리고 custom 데이터 셋의 품질을 높이며 다양한 batch와 overfitting이 되지 않을 정도의 학습 수를 고려하여 진행 하였다. 
 
 <img width="513" height="301" alt="Image" src="https://github.com/user-attachments/assets/97b18563-6bdf-4d47-a03b-05879c1784c8" ></img>
 
@@ -527,16 +531,50 @@ YOLO 의 Pretrained Checkpoints를 기반으로 성능과 속도 사이의 Trade
 
 **성능 지표**
 
-```
 완성된 데이터 셋과 변수들을 바꿔가며 최종적으로 각 요소의 predicted가 0.9에 근접하고 maP (0.93935 at IoU 0.5) 의 성능을 가지는 모델을 만들었다.
-<img width="628" height="417" alt="Image" src="https://github.com/user-attachments/assets/7acdf3a2-3627-4c95-b6ac-6c53291c5cac" ></img>
 
-```
 <img width="628" height="417" alt="Image" src="https://github.com/user-attachments/assets/7acdf3a2-3627-4c95-b6ac-6c53291c5cac" ></img>
 
 ### 📱애플리케이션 개발
 
-#### 💻개발 환경
+이번 프로젝트에서는 다음 3가지 요소를 고려하여 Android Studio를 애플리 케이션 개발에 이용하였다.
+
+1️⃣ 접근성
+
+- Android 공식 IDE로 최적화된 성능 보장
+- 동영상 및 갤러리 접근 용이
+- RecyclerView, ProgressDialog 등 네이티브 UI 활용
+
+2️⃣ Firebase 완벽 연동
+
+- Firebase Realtime Database 공식 SDK 제공
+- Google 공식 문서 및 샘플 코드 풍부
+- Authentication, Storage, Cloud Messaging 통합 관리
+
+3️⃣ 팀 개발 경험
+
+- 팀원 모두 Java 기반 안드로이드 개발 경험 보유
+- 학교 교육과정에서 Android Studio 사용
+- 빠른 프로토타이핑 및 디버깅 가능
+
+**주요 라이브러리**
+
+```gradle
+dependencies {
+    // Firebase
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'com.google.firebase:firebase-database:20.0.3'
+    
+    // 네트워크
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.0'
+    
+    // UI
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+}
+```
 
 ## 기술 스택
 ## 설치 및 실행

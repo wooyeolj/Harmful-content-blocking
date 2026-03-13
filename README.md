@@ -520,6 +520,8 @@ def save_detection_info(video_folder, detection_number, class_name, confidence):
 
 초기모델 구축과정에서 처음에는 인터넷에서 가진을 긁어 라벨링을 하며 진행하였으나 더 많은 데이터셋을 확보하기 위해 Roboflow의 데이터 셋과 직접 촬영한 사진 약 100장을 포함해 약 26000장의 사진으로 YOLO 모델 중 nano, small, medium 사이즈를 위주로 다양한 batch와 80~120번의 epochs의 조건을 변경하며 모델 학습을 수행하였다. 하지만 학습된 모델은 초기 원하던 90% 이상의 정확도에 달하지 못하여 데이터셋의 사진을 약 4만 장으로 늘리고 custom 데이터 셋의 품질을 높이며 다양한 batch와 overfitting이 되지 않을 정도의 학습 수를 고려하여 진행 하였다. 
 
+<img width="513" height="301" alt="Image" src="https://github.com/user-attachments/assets/97b18563-6bdf-4d47-a03b-05879c1784c8" />
+
 YOLO 의 Pretrained Checkpoints를 기반으로 성능과 속도 사이의 Trade-off를 분석하였다.
 640px 입력 이미지 환경에서 모델 규모에 따른 성능 테스트에 따라 실시간 추론 속도를 유지하면서도 높은 검출 정확도를 보장하는 Medium 모델을 선택하였다.
 
@@ -528,7 +530,7 @@ YOLO 의 Pretrained Checkpoints를 기반으로 성능과 속도 사이의 Trade
 ```
 완성된 데이터 셋과 변수들을 바꿔가며 최종적으로 각 요소의 predicted가 0.9에 근접하고 maP (0.93935 at IoU 0.5) 의 성능을 가지는 모델을 만들었다.
 
-
+<img width="628" height="417" alt="Image" src="https://github.com/user-attachments/assets/7acdf3a2-3627-4c95-b6ac-6c53291c5cac" />
 
 ```
 

@@ -11,6 +11,7 @@
   
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Flask](https://img.shields.io/badge/Flask-2.0+-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![Twilio](https://img.shields.io/badge/Twilio_SDK-F22F46?style=flat&logo=twilio&logoColor=white)](https://www.twilio.com/)
 [![YOLOv5](https://img.shields.io/badge/YOLOv5-PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://github.com/ultralytics/yolov5)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.5+-5C3EE8?style=flat&logo=opencv&logoColor=white)](https://opencv.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.10+-EE4C2C?style=flat&logo=pytorch&logoColor=white)](https://pytorch.org/)
@@ -28,6 +29,7 @@
    
 [![Firebase Realtime DB](https://img.shields.io/badge/Firebase_Realtime_DB-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/products/realtime-database)
 [![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/products/auth)</parameter></invoke>
+[![Twilio SMS API](https://img.shields.io/badge/Twilio_SMS_API-F22F46?style=flat&logo=twilio&logoColor=white)](https://www.twilio.com/en-us/messaging/channels/sms)
 
 </div>
 
@@ -529,15 +531,21 @@ def save_detection_info(video_folder, detection_number, class_name, confidence):
 YOLO 의 Pretrained Checkpoints를 기반으로 성능과 속도 사이의 Trade-off를 분석하였다.
 640px 입력 이미지 환경에서 모델 규모에 따른 성능 테스트에 따라 실시간 추론 속도를 유지하면서도 높은 검출 정확도를 보장하는 Medium 모델을 선택하였다.
 
+---
+
 **성능 지표**
 
 완성된 데이터 셋과 변수들을 바꿔가며 최종적으로 각 요소의 predicted가 0.9에 근접하고 maP (0.93935 at IoU 0.5) 의 성능을 가지는 모델을 만들었다.
 
 <img width="628" height="417" alt="Image" src="https://github.com/user-attachments/assets/7acdf3a2-3627-4c95-b6ac-6c53291c5cac" ></img>
 
+---
+
 ### 📱애플리케이션 개발
 
 이번 프로젝트에서는 다음 3가지 요소를 고려하여 Android Studio를 애플리 케이션 개발에 이용하였다.
+
+---
 
 1️⃣ 접근성
 
@@ -557,6 +565,8 @@ YOLO 의 Pretrained Checkpoints를 기반으로 성능과 속도 사이의 Trade
 - 학교 교육과정에서 Android Studio 사용
 - 빠른 프로토타이핑 및 디버깅 가능
 
+---
+
 **주요 라이브러리**
 
 ```gradle
@@ -575,6 +585,8 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.0'
 }
 ```
+
+---
 
 ## 기술 스택
 ## 설치 및 실행

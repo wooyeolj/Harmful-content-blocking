@@ -472,7 +472,8 @@ def save_detection_info(video_folder, detection_number, class_name, confidence):
 
 ### 🏗️시스템 구상도
 
-<img width="565" height="405" alt="image" src="https://github.com/user-attachments/assets/ceb26d64-d95b-490e-b426-c00905fc7a91" />
+<p align="center">
+<img width="565" height="405" alt="image" src="https://github.com/user-attachments/assets/ceb26d64-d95b-490e-b426-c00905fc7a91" /></p>
 
 본 시스템에서는 단말기 간 이미지, 영상, 문자 등의 전송 과정에서 Flask 서버를 중개로 활용하여, 전달되는 콘텐츠 내부에 유해 요소가 포함되어 있는지 YOLOv5 AI 모델로 검사한다. 유해물이 3회 이상 탐지되면 전송을 즉시 차단하고, 사전에 설정된 보호자에게 Twilio SMS로 실시간 알림을 발송한다. 안전이 확인된 영상만 Firebase를 통해 채팅방에 공유된다.
 
@@ -539,7 +540,8 @@ YOLO 의 Pretrained Checkpoints를 기반으로 성능과 속도 사이의 Trade
 데이터 셋과 변수들을 바꿔가며 시행착오를 거친 끝에
 최종 구현된 모델은 mAP_{50} 기준 93.94%의 높은 정확도를 기록하였으며, 각 클래스별 predicted가 균일하게 0.9에 달하는 수치를 기록했다.
 
-<img width="628" height="417" alt="Image" src="https://github.com/user-attachments/assets/7acdf3a2-3627-4c95-b6ac-6c53291c5cac" ></img>
+<p align="center">
+<img width="628" height="417" alt="Image" src="https://github.com/user-attachments/assets/7acdf3a2-3627-4c95-b6ac-6c53291c5cac" ></img></p>
 
 ---
 

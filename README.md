@@ -526,7 +526,8 @@ def save_detection_info(video_folder, detection_number, class_name, confidence):
 
 하지만 학습된 모델은 목표하던 90% 이상의 정확도에 달하지 못하여 데이터셋의 사진을 약 4만 장으로 늘리고 custom 데이터 셋의 품질을 높이며 다양한 batch와 overfitting이 되지 않을 정도의 학습 수를 고려하여 진행 하였다. 
 
-<img width="513" height="301" alt="Image" src="https://github.com/user-attachments/assets/97b18563-6bdf-4d47-a03b-05879c1784c8" ></img>
+<p align="center">
+<img width="513" height="301" alt="Image" src="https://github.com/user-attachments/assets/97b18563-6bdf-4d47-a03b-05879c1784c8" ></img></p>
 
 YOLO 의 Pretrained Checkpoints를 기반으로 성능과 속도 사이의 Trade-off를 분석하였다.
 640px 입력 이미지 환경에서 모델 규모에 따른 성능 테스트에 따라 실시간 추론 속도를 유지하면서도 높은 검출 정확도를 보장하는 Medium 모델을 선택하였다.
@@ -536,7 +537,7 @@ YOLO 의 Pretrained Checkpoints를 기반으로 성능과 속도 사이의 Trade
 **성능 지표**
 
 데이터 셋과 변수들을 바꿔가며 시행착오를 거친 끝에
-최종 구현된 모델은 mAP_{50} 기준 93.94%의 높은 정확도를 기록하였으며, 각 클래스별 predicted가 균일하게 0.9를 상회하는 높은 분류 신뢰도를 입증하였다.
+최종 구현된 모델은 mAP_{50} 기준 93.94%의 높은 정확도를 기록하였으며, 각 클래스별 predicted가 균일하게 0.9에 달하는 수치를 기록했다.
 
 <img width="628" height="417" alt="Image" src="https://github.com/user-attachments/assets/7acdf3a2-3627-4c95-b6ac-6c53291c5cac" ></img>
 

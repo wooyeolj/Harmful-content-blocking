@@ -535,7 +535,8 @@ YOLO 의 Pretrained Checkpoints를 기반으로 성능과 속도 사이의 Trade
 
 **성능 지표**
 
-완성된 데이터 셋과 변수들을 바꿔가며 최종적으로 각 요소의 predicted가 0.9에 근접하고 maP (0.93935 at IoU 0.5) 의 성능을 가지는 모델을 만들었다.
+데이터 셋과 변수들을 바꿔가며 시행착오를 거친 끝에
+최종 구현된 모델은 **$mAP_{50}$ 기준 93.94%**의 높은 정확도를 기록하였으며, 각 클래스별 predicted가 균일하게 0.9를 상회하는 높은 분류 신뢰도를 입증하였다.
 
 <img width="628" height="417" alt="Image" src="https://github.com/user-attachments/assets/7acdf3a2-3627-4c95-b6ac-6c53291c5cac" ></img>
 

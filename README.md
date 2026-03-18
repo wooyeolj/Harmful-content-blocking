@@ -28,7 +28,7 @@
    **Database & Services**
    
 [![Firebase Realtime DB](https://img.shields.io/badge/Firebase_Realtime_DB-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/products/realtime-database)
-[![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/products/auth)</parameter></invoke>
+[![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/products/auth)
 [![Twilio SMS API](https://img.shields.io/badge/Twilio_SMS_API-F22F46?style=flat&logo=twilio&logoColor=white)](https://www.twilio.com/en-us/messaging/channels/sms)
 
 </div>
@@ -619,7 +619,7 @@ dependencies {
    **Database & Services**
    
 [![Firebase Realtime DB](https://img.shields.io/badge/Firebase_Realtime_DB-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/products/realtime-database)
-[![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/products/auth)</parameter></invoke>
+[![Firebase Auth](https://img.shields.io/badge/Firebase_Auth-FFCA28?style=flat&logo=firebase&logoColor=black)](https://firebase.google.com/products/auth)
 [![Twilio SMS API](https://img.shields.io/badge/Twilio_SMS_API-F22F46?style=flat&logo=twilio&logoColor=white)](https://www.twilio.com/en-us/messaging/channels/sms)
 
 </div>

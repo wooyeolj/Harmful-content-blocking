@@ -479,6 +479,9 @@ def save_detection_info(video_folder, detection_number, class_name, confidence):
 
 본 시스템에서는 단말기 간 이미지, 영상, 문자 등의 전송 과정에서 Flask 서버를 중개로 활용하여, 전달되는 콘텐츠 내부에 유해 요소가 포함되어 있는지 YOLOv5 AI 모델로 검사한다. 유해물이 3회 이상 탐지되면 전송을 즉시 차단하고, 사전에 설정된 보호자에게 Twilio SMS로 실시간 알림을 발송한다. 안전이 확인된 영상만 Firebase를 통해 채팅방에 공유된다.
 
+
+※ 모든 성능 테스트는 Samsung Galaxy Z Flip 3 실 단말기 환경에서 수행되었습니다.
+
 ---
 
 ### 🤖YOLO 학습 모델
@@ -548,6 +551,8 @@ YOLO 의 Pretrained Checkpoints를 기반으로 성능과 속도 사이의 Trade
 ---
 
 ### 📱애플리케이션 개발
+
+※ 모든 성능 테스트는 Samsung Galaxy Z Flip 3 실 단말기 환경에서 수행되었습니다.
 
 이번 프로젝트에서는 다음 3가지 요소를 고려하여 Android Studio를 애플리 케이션 개발에 이용하였다.
 

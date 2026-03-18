@@ -471,7 +471,10 @@ def save_detection_info(video_folder, detection_number, class_name, confidence):
 ### 🏗️시스템 구상도
 
 <p align="center">
-<img width="565" height="405" alt="image" src="https://github.com/user-attachments/assets/ceb26d64-d95b-490e-b426-c00905fc7a91" /></p>
+<img width="565" height="405" alt="image" src="https://github.com/user-attachments/assets/ceb26d64-d95b-490e-b426-c00905fc7a91" />
+
+<img width="229" height="365" alt="image" src="https://github.com/user-attachments/assets/0dcc8d39-59b4-4e57-9ef2-53efa80fe349" /></p>
+
 
 본 시스템에서는 단말기 간 이미지, 영상, 문자 등의 전송 과정에서 Flask 서버를 중개로 활용하여, 전달되는 콘텐츠 내부에 유해 요소가 포함되어 있는지 YOLOv5 AI 모델로 검사한다. 유해물이 3회 이상 탐지되면 전송을 즉시 차단하고, 사전에 설정된 보호자에게 Twilio SMS로 실시간 알림을 발송한다. 안전이 확인된 영상만 Firebase를 통해 채팅방에 공유된다.
 
@@ -625,8 +628,34 @@ dependencies {
 ## 프로젝트 결과
 
 ### 📋개발 결과
+
+- 통합 보안 솔루션 구축: Android(클라이언트) - Flask(서버) - YOLOv5(AI) - Twilio(SMS)를 잇는 Full-Stack 유해 콘텐츠 차단 시스템 구현 완료.
+
+- 실시간 대응 체계: 유해 요소 감지 시 즉각적인 전송 차단 및 증거 프레임 수집, 보호자 보고서 전송 프로세스 확립.
+
+- 데이터 보안: 분석 완료 후 서버 내 원본 영상을 즉시 삭제하여 개인정보 유출 위험 최소화
+
+---
+
 ### ✨성능 지표
+| 비교항목 | 지표 |비고 | 
+|:---:|:---:|:---:|
+|정확도|mAP@0.5: 93.94%|담배, 칼, 권총 탐지|
+|분석 속도|약 10초|30초 분량 영상 기준 초기 모델 대비 18배 단축|
+|탐지 신뢰도|90% 이상|90% 미만은 미탐지 처리|
+
+---
+
 ### 🎯활용 분야
+
+1️⃣ **가정 내 자녀 보호**: 청소년의 스마트폰 메신저 내 유해 매체 노출 선제적 방지.
+
+2️⃣ **교육 기관**: 학교 및 학원 내 태블릿 PC/학습용 단말기의 유해 콘텐츠 필터링 솔루션.
+
+3️⃣ **기업 보안**: 업무용 협업 툴 내 부적절한 이미지/영상 공유 차단 및 관리.
+
+4️⃣ **커뮤니티 플랫폼**: 사용자 간 신뢰를 높이고, 건강한 소통 환경 조성
+
 
 ## 기술적 도전과 해결
 

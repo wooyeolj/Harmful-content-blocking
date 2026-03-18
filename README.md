@@ -471,8 +471,9 @@ def save_detection_info(video_folder, detection_number, class_name, confidence):
 ### 🏗️시스템 구상도
 
 <p align="center">
-<img width="565" height="405" alt="image" src="https://github.com/user-attachments/assets/ceb26d64-d95b-490e-b426-c00905fc7a91" />
+<img width="565" height="405" alt="image" src="https://github.com/user-attachments/assets/ceb26d64-d95b-490e-b426-c00905fc7a91" /></p>
 
+<p align="center">
 <img width="229" height="365" alt="image" src="https://github.com/user-attachments/assets/0dcc8d39-59b4-4e57-9ef2-53efa80fe349" /></p>
 
 
